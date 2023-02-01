@@ -6,7 +6,7 @@ import cors from "cors";
 import holidayRouter from "./Handlers/holidayRouter.js";
 
 dotenv.config();
-// const EXPRESS_PORT = parseInt(process.env.EXPRESS_PORT ?? "5005", 10);
+const EXPRESS_PORT = parseInt(process.env.EXPRESS_PORT ?? "5005", 10);
 
 const app = express();
 app.use(express.json());
