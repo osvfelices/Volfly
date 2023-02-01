@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
   res.send("Hello from Express!");
 });
 
-app.use("/", holidayRouter);
+app.use("/holidays", holidayRouter);
 
 app.listen(5005, () => {
   if (database.getConnection() == null) {

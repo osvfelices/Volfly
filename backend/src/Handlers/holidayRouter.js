@@ -9,11 +9,11 @@ import {
 
 const holidayRouter = Router();
 
-holidayRouter.get("/holidays", getAllHolidays);
-holidayRouter.get("/holidays/:id", getHolidayById);
-holidayRouter.post("/holidays", createNewHoliday);
-holidayRouter.put("/holidays/:id", updateHoliday);
-holidayRouter.delete("/holidays/:id", deleteHoliday);
+holidayRouter.get("/", getAllHolidays);
+holidayRouter.get("/:id", getHolidayById);
+holidayRouter.post("/", createNewHoliday);
+holidayRouter.put("/:id", updateHoliday);
+holidayRouter.delete("/:id", deleteHoliday);
 
 export default holidayRouter;
 
