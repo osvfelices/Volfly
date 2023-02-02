@@ -1,3 +1,4 @@
+-- SQLBook: Code
 CREATE DATABASE holidays;
 
 SHOW CREATE PROCEDURE insert_packages;
@@ -130,7 +131,7 @@ The resort has 5 a la carte restaurants, buffet restaurant, steakhouse, cafeteri
 
 INSERT INTO departure_cities (city) VALUES ('Paris'), ('Nice'), ('Lyon');
 
-CALL insert_packages('Mexico', 'Grand Palladium White Sand', 'shorturl.at/kqBR9', 'This exclusive all-inclusive resort is surrounded by landscaped gardens and lakes, on a private beach in the Riviera Maya, 14 km from the Dolphin Discovery dolphinarium in Tulum-Akumal and 87 km from Cancun International Airport. Tulum-Akumal and 87 km from Cancun International Airport.
+CALL insert_packages('Mexico', 'Grand Palladium White Sand', 'https://www.palladiumhotelgroup.com/content/dam/palladium/content-fragments/hoteles/es/grand-palladium-white-sand-resort-&-spa/galer%C3%ADa/im%C3%A1genes/hotel/Grand-Palladium-White-Sand-Resort-Spa_Vista-a%C3%A9rea-de-la-piscina-principal.jpg.transform/rendition-sm/image.jpg', 'This exclusive all-inclusive resort is surrounded by landscaped gardens and lakes, on a private beach in the Riviera Maya, 14 km from the Dolphin Discovery dolphinarium in Tulum-Akumal and 87 km from Cancun International Airport. Tulum-Akumal and 87 km from Cancun International Airport.
 
 The suites are bright and feature a furnished balcony, sophisticated living area with sofa bed, free Wi-Fi, flat-screen TV, minibar and whirlpool tub. The adults-only, lakeside bungalows include thatched roofs, sitting areas and private jetties with canoes.
 
