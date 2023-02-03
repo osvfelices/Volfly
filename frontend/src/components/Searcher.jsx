@@ -163,7 +163,6 @@ const Searcher = ({ holidays, setFilteredHolidays }) => {
           )}
         </div>
       </form>
-      {/* <div>{displayHolidays}</div> */}
     </div>
   );
 };
